@@ -1216,7 +1216,7 @@ a:focus {
   display: -webkit-flex;
   display: flex;
   align-items: center;
-  gap: 80px;
+  gap: 0px;
 }
 
 #header-main.style-1.home-page-4 .main-menu .navigation>li>a {
@@ -7218,10 +7218,11 @@ input[value=theme-dark]+label {
 
 .section-box-about .box-about>.item {
   position: absolute;
-  top: 30px;
+  top: 17%;
   left: 50%;
   transform: translateX(-50%);
   z-index: -1;
+  opacity: 0.1;
 }
 
 .section-box-about.page-home-2 .image-wrap {
@@ -9775,4 +9776,8 @@ input[value=theme-dark]+label {
 
 .page-title-homepage-1 .content-inner .content-right {
   max-width: 740px !important;
+}
+
+.site-logo img {
+  width: 11%;
 }
