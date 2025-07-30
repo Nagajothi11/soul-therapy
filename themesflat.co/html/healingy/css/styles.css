@@ -9765,6 +9765,13 @@ input[value=theme-dark]+label {
   letter-spacing: 0.8px
 }
 
+.footerlogoName {
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  letter-spacing: 0.8px
+}
+
 .page-title-homepage-1 .content-inner .title {
   max-width: 690px
 }
@@ -9780,4 +9787,22 @@ input[value=theme-dark]+label {
 
 .site-logo img {
   width: 11%;
+}
+
+.footer-logo img {
+  filter: invert(1);
+  width: 45%;
+}
+
+.footer-logo {
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.footer-logo-icon img {
+  filter: invert(1);
+}
+
+.footer-logo-icon li a {
+  text-decoration: none;
 }
